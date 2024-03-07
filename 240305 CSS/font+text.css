@@ -60,7 +60,7 @@ h1 {
   text-align: justify;
   text-indent: 100px; /* 들여쓰기, 내쓰기 */
 }
-p.box5 { /* 종속 선택자: 타입 ul 중, 클래스 선택자가 box5인 요소 */
+p.box5 { /* 종속 선택자: 타입 p 중, 클래스 선택자가 box5인 요소 */
   text-indent: -100px; /* 들여쓰기, 내쓰기 */
 }
 p.box5 > strong { /* 복합 선택자: 종속선택자 자식으로 타입선택자 */
