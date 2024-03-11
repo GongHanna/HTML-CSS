@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <title>formStyleEx</title>
+  <style>
+    body {
+      font-weight: bold;
+    }
+    form {
+      width: 600px;
+      margin: auto;
+      background-color: #ddd;
+      padding: 50px 10px;
+    }
+    fieldset {
+      background-color: #fff;
+      border: 3px solid #387ADF;
+      border-radius: 10px;
+    }
+    legend {
+      background-color: #387ADF;
+      border-radius: 10px;
+      padding: 5px 10px;
+      color: darkmagenta;
+    }
+    .box1 {
+      color: darkmagenta;
+      text-align: center;
+    }
+
+    input {
+      border: #fff solid 3px;
+      border-bottom: #387ADF solid 1px;
+    }
+    button {
+      background-color: #387ADF;
+      color: #fff;
+      border: #387ADF 3px solid;
+    }
+    .box2 {
+      width: 400px;
+      text-align: right;
+    }
+
+  </style>
+</head>
+
+<body>
+  <form>
+    <fieldset>
+      <legend>회원가입</legend>
+      <div class="box1"><p><label for="user_name">이름 : </label><input type="text" id="user_name" name="userName"></p>
+      <p><label for="user_email">이메일 : </label><input type="email" id="user_email" name="userEmail"></p>
+      <p class="box2"><button type="submit">가입</button>
+      <button type="reset">취소</button></p></div>
+    </fieldset>
+  </form>
+</body>
+</html>
