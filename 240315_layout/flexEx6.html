@@ -7,20 +7,54 @@
     body {
       margin: 0;
     }
-    .container {
-      /* border: 1px solid #222;
-      background-color: #ddd; */
-      margin: 0; 
-      padding: 0;
+    form .container {
+      /* border: 3px solid #222; */
       list-style: none;
+      margin: 0;
+      padding: 0;
+
       display: flex;
+      align-items: center;
+      justify-content: space-between;
       width: 100vw;
-      height: 60px;
+      height: 3rem;
     }
-    .item1 {
-      background-color: darkblue;
+    form .container li {
+      height: 3rem;
+      /* padding: 4rem; */
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    form .container li input[type=text] {
+      outline: none;
+      border: 1px solid #222;
+      padding: 0.3rem;
+      margin-left: 0.3rem;
+    }
+    form .container li button[type=submit] {
+      border: 1px solid #222;
+      margin-left: 0.3rem;
+      padding: 0.25rem;
+    }
+    form .container li button[type=submit]:hover {
+      background-color: #124076;
       color: #fff;
-      padding: 10px;
+    }
+    form .container .item1 {
+      background-color: #00224D; color: #fff;
+      width: 13%;
+    }
+    form .container .item2 { 
+      display: flex;
+      justify-content: flex-start;
+      background-color: #FFE6E6; 
+      width: 80%;
+    }
+    form .container .item3 { 
+      background-color: #7F9F80; 
+      width: 7%;
     }
     h3 {
       margin: 0;
